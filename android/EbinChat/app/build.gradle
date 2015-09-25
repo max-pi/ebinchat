@@ -22,4 +22,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.0'
+
+    // profile images
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    // parse stuff
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile fileTree(dir: 'libs', include: 'Parse-*/Parse-*.jar')
 }
